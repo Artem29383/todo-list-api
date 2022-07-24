@@ -1,0 +1,28 @@
+{
+  "name": "react-ssr",
+  "version": "1.0.0",
+  "description": "Boilerplate for study",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "webpack",
+    "react",
+    "pwa",
+    "service-worker",
+    "typescript",
+    "babel",
+    "server-side-rendering",
+    "ssr"
+  ],
+  "author": "Artem29383, LinkedIn: https://www.linkedin.com/in/artem-averyanov-4836a51a5/",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.18.9",
+    "@babel/preset-env": "^7.18.9",
+    "@babel/register": "^7.18.9",
+    "cors": "^2.8.5",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {}
+}

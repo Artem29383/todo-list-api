@@ -5,6 +5,8 @@ const app = express()
 
 app.use(cors())
 
+const port = process.env.PORT || 4333;
+
 const items = [{id: 1, checked: false, text: 'Buy beer'}, {id: 2, checked: false, text: 'Buy milk'}];
 
 app.get('/list', (req, res) => {
@@ -15,6 +17,6 @@ app.get('/list', (req, res) => {
     }
 })
 
-app.listen(4333, () => {
-    console.log('Express server started at <http://localhost:4333>')
+app.listen(port, () => {
+    console.log(`Express server started at <http://localhost:${port}>`)
 });
